@@ -39,19 +39,14 @@ go-tftp is a cross-platform, concurrent TFTP client and server implementation fo
     
     Enable single port mode with the `--single-port` flag. This is currently marked experimental as is diverges from the TFTP standard.
 
-## Installation
-
-```
-go get -u pack.ag/tftp
-```
 
 ## API
 
-The API was inspired by Go's well-known net/http API. If you can write a net/http handler or middleware, you should have no problem doing the same with pack.ag/tftp.
+The API was inspired by Go's well-known net/http API. If you can write a net/http handler or middleware, you should have no problem doing the same with this package.
 
 ### Configuration Functions
 
-One area that is noticeably different from net/http is the configuration of clients and servers. pack.ag/tftp uses "configuration functions" rather than the direct modification of the
+One area that is noticeably different from net/http is the configuration of clients and servers. go-tftp uses "configuration functions" rather than the direct modification of the
 Client/Server struct or a configuration struct passed into the factory functions.
 
 A few explanations of this pattern:
