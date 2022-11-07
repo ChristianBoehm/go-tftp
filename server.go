@@ -107,7 +107,7 @@ func (s *Server) Serve(conn *net.UDPConn) error {
 		case <-s.close:
 			return nil
 		default:
-			conn.SetReadDeadline(time.Now().Add(500 * time.Millisecond))
+			conn.SetReadDeadline(time.Now().Add(1000 * time.Millisecond))
 			n, addr, err := conn.ReadFromUDP(buf)
 			if err != nil {
 				if err, ok := err.(*net.OpError); ok && err.Timeout() {

@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"pack.ag/tftp/netascii"
+	"github.com/christianboehm/tftp/netascii"
 )
 
 const (
