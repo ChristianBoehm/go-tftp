@@ -2,7 +2,7 @@
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details
 
-package tftp // import "pack.ag/tftp"
+package tftp // import "github.com/christianboehm/go-tftp"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/christianboehm/tftp/netascii"
+	"github.com/christianboehm/go-tftp/netascii"
 )
 
 const (

@@ -1,4 +1,4 @@
-package tftp // import "pack.ag/tftp"
+package tftp // import "github.com/christianboehm/go-tftp"
 
 import (
 	"fmt"
