@@ -1,4 +1,4 @@
-# **pack.ag/tftp**
+# **github.com/christianboehm/go-tftp**
 
 [![Go Report Card](https://goreportcard.com/badge/vcabbage/go-tftp)](https://goreportcard.com/report/vcabbage/go-tftp)
 [![Coverage Status](https://coveralls.io/repos/github/vcabbage/go-tftp/badge.svg?branch=master)](https://coveralls.io/github/vcabbage/go-tftp?branch=master)
