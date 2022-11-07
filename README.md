@@ -1,4 +1,4 @@
-# **github.com/christianboehm/go-tftp**
+# *go-tftp**
 
 [![Go Report Card](https://goreportcard.com/badge/vcabbage/go-tftp)](https://goreportcard.com/report/vcabbage/go-tftp)
 [![Coverage Status](https://coveralls.io/repos/github/vcabbage/go-tftp/badge.svg?branch=master)](https://coveralls.io/github/vcabbage/go-tftp?branch=master)
@@ -8,7 +8,7 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vcabbage/go-tftp/master/LICENSE)
 
 
-pack.ag/tftp is a cross-platform, concurrent TFTP client and server implementation for Go.
+go-tftp is a cross-platform, concurrent TFTP client and server implementation for Go.
 
 
 ### Standards Implemented
