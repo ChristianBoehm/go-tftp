@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"pack.ag/tftp"
+	"github.com/christianboehm/go-tftp"
 
 	_ "github.com/mattn/go-sqlite3"
 )

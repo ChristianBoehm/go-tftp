@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/http"
 
-	"pack.ag/tftp"
+	"github.com/christianboehm/go-tftp"
 )
 
 const baseURL = "https://api.github.com/"
